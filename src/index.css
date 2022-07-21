@@ -1,13 +1,193 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --color-bg:#1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-black: #000;
+    --color-light: rgba(255, 255, 255, 0.6);
+    
+    --color-dk-bg: rgb(29, 29, 29);
+    --color-dk-bg-variant: #443291;
+    --color-dk-primary: #9c1167;
+    --color-dk-primary-variant: #c92f60d4;
+    --color-dk-light: #9c08d794;
+    
+    --color-lt-bg: rgb(226, 226, 226);
+    --color-lt-bg-variant: #49adc3;
+    --color-lt-primary: #12bb8e;
+    --color-lt-primary-variant: #11bf91b2;
+    --color-lt-light: #0f90adc6;
+    
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* ======== APP DARK & LIGHT ====== */
+.lt-app {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-lt-bg);
+    color: var(--color-black);
+    line-height: 1.7;
+    background-image: url(../src/assets/bg-texture.png);
+    padding-bottom: 50rem;
+}
+.dk-app {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-dk-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/assets/bg-texture.png);
+    padding-bottom: 50rem;
+} 
+
+/* ============== GENERAL STYLES ===================== */
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+.lt-section > h2, .lt-section > h5 {
+    text-align: center;
+    color: var(--color-lt-light);
+}
+.dk-section > h2, .dk-section > h5 {
+    text-align: center;
+    color: var(--color-dk-light);
+}
+
+.lt-section > h2 {
+    color: var(--color-lt-primary);
+    margin-bottom: 3rem;
+}
+.dk-section > h2 {
+    color: var(--color-dk-primary);
+    margin-bottom: 3rem;
+}
+
+.lt-text-light {
+    color: var(--color-lt-light);
+}
+.dk-text-light {
+    color: var(--color-dk-light);
+}
+
+.lt-link {
+    color: var(--color-lt-primary);
+    transition: var(--transition);
+}
+.dk-link {
+    color: var(--color-dk-primary);
+    transition: var(--transition);
+}
+
+.lt-link:hover {
+    color: var(--color-white);
+}
+.dk-link:hover {
+    color: var(--color-white);
+}
+
+.lt-btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-lt-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-lt-primary);
+    transition: var(--transition);
+}
+.dk-btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-dk-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-dk-primary);
+    transition: var(--transition);
+}
+
+.lt-btn:hover {
+    background: var(--color-black);
+    color: var(--color-lt-bg);
+    border-color: transparent;
+}
+.dk-btn:hover {
+    background: var(--color-white);
+    color: var(--color-dk-bg);
+    border-color: transparent;
+}
+
+.lt-btn-primary {
+    background: var(--color-lt-primary);
+    color: var(--color-lt-bg);
+}
+.dk-btn-primary {
+    background: var(--color-dk-primary);
+    color: var(--color-dk-bg);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}    
+
+/* ======== MEDIA QUERIES (MEDIUM DEVICES)============*/
+@media screen and (max-wiidth: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+/* ======== MEDIA QUERIES (SMALL DEVICES)============*/
+@media screen and (max-wiidth: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }
