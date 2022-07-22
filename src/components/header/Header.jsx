@@ -1,13 +1,13 @@
 import React from 'react';
 import CTA from './CTA';
 import './Header.css';
-import ME from '../../assets/me.png';
+import ME from '../../assets/mefulltrans.png';
 import HeaderSocials from './HeaderSocials';
 
 const Header = ({isDark}) => {
     return (
         <header>
-            <div className='container header_container'>
+            <div className='container header__container'>
                 <h5>Hello I'm</h5>
                 <h1>Jacob Hocker</h1>
                 <h5 className={isDark === true ? 'dk-text-light' : 'lt-text-light'}>Web Developer</h5>
@@ -16,11 +16,11 @@ const Header = ({isDark}) => {
                 <CTA isDark={isDark}/>
                 <HeaderSocials isDark={isDark}/>
 
-                <div className='me'>
-                    <img src={ME} alt='me' />
+                <div className={isDark === true ? 'dk-me' : 'lt-me'}>
+                    <img src={ME} alt='me' className='me-img' />
                 </div>
 
-                <a href='#contact' className={isDark === true ? 'dk-scroll_down' : 'lt-scroll_down'}>Scroll Down</a>
+                <a href='#contact' className={isDark === true ? 'dk-scroll__down' : 'lt-scroll__down'}>Scroll Down</a>
             </div>
 
         </header>
