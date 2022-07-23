@@ -20,12 +20,12 @@ const App = () => {
         window.localStorage.setItem('isDark', isDark);
     }, [isDark]);
     
-    console.log(isDark)
+    
     const toggleDarkMode = () => setIsDark(!isDark);
     return (
     <div className={isDark === true ? 'dk-app' : 'lt-app'}>
         <Header isDark={isDark}/>
-        <Nav onDarkClick={toggleDarkMode}/>
+        <Nav onDarkClick={toggleDarkMode} isDark={isDark}/>
         <About />
         <Experience />
         <Services />

@@ -1,0 +1,63 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav .lt-nav-link{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-lt-light);
+    font-size: 1.1rem;
+}
+nav .dk-nav-link{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-dk-light);
+    font-size: 1.1rem;
+}
+nav .lt-nav-link:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+nav .dk-nav-link:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+nav .lt-nav-link.active {
+    background: var(--color-lt-bg);
+    color: var(--color-black);
+}
+nav .dk-nav-link.active {
+    background: var(--color-dk-bg);
+    color: var(--color-white);
+}
+
+/* ========= NAV LINK ========== */
+.lt-nav-link {
+    color: var(--color-lt-primary);
+    transition: var(--transition);
+}
+.dk-nav-link {
+    color: var(--color-dk-primary);
+    transition: var(--transition);
+}
+
+.lt-nav-link:hover {
+    color: var(--color-black);
+}
+.dk-nav-link:hover {
+    color: var(--color-white);
+}

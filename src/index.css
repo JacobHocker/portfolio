@@ -81,6 +81,7 @@ h1{
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 .lt-section > h2, .lt-section > h5 {
