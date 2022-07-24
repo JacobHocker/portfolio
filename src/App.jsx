@@ -26,7 +26,7 @@ const App = () => {
     <div className={isDark === true ? 'dk-app' : 'lt-app'}>
         <Header isDark={isDark}/>
         <Nav onDarkClick={toggleDarkMode} isDark={isDark}/>
-        <About />
+        <About isDark={isDark}/>
         <Experience />
         <Services />
         <Portfolio />
