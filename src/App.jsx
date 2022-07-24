@@ -27,12 +27,12 @@ const App = () => {
         <Header isDark={isDark}/>
         <Nav onDarkClick={toggleDarkMode} isDark={isDark}/>
         <About isDark={isDark}/>
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Skills />
-        <Contact />
-        <Footer />
+        <Experience isDark={isDark}/>
+        <Services isDark={isDark}/>
+        <Portfolio isDark={isDark}/>
+        <Skills isDark={isDark}/>
+        <Contact isDark={isDark}/>
+        <Footer isDark={isDark}/>
     </div>
     )
 }
