@@ -5,10 +5,10 @@ import './Footer.css';
 const Footer = ({isDark}) => {
     return (
         <footer className={isDark === true ? 'dk-footer' : 'lt-footer'}>
-            <a href='#' className={isDark === true ? 'dk-footer__logo' : 'lt-footer__logo'}>Jacob Hocker</a>
+            <a href='#home' className={isDark === true ? 'dk-footer__logo' : 'lt-footer__logo'}>Jacob Hocker</a>
 
             <ul className={isDark === true ? 'dk-permalinks' : 'lt-permalinks'}>
-                <li><a href='#' className={isDark === true ? 'dk-foot-link' : 'lt-foot-link'}>Home</a></li>
+                <li><a href='#home' className={isDark === true ? 'dk-foot-link' : 'lt-foot-link'}>Home</a></li>
                 <li><a href='#about' className={isDark === true ? 'dk-foot-link' : 'lt-foot-link'}>About</a></li>
                 <li><a href='#experience' className={isDark === true ? 'dk-foot-link' : 'lt-foot-link'}>Experience</a></li>
                 <li><a href='#services' className={isDark === true ? 'dk-foot-link' : 'lt-foot-link'}>Services</a></li>

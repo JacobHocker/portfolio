@@ -8,12 +8,12 @@ import {TbHeartHandshake} from 'react-icons/tb';
 import './Nav.css';
 
 const Nav = ({onDarkClick, isDark}) => {
-    const [activeNav, setActiveNav] = useState('#');
+    const [activeNav, setActiveNav] = useState('#home');
     
     return (
         <nav>
             <a className={isDark === true ? 'dk-nav-link' : 'lt-nav-link'} onClick={onDarkClick}>{isDark === true ? <BsLightbulb/> : <MdOutlineDarkMode/>}</a>
-            <a href='#' onClick={() => setActiveNav('#')} className={isDark === true ? activeNav === '#' ? 'dk-nav-link active' : 'dk-nav-link' : activeNav === '#' ? 'lt-nav-link active' : 'lt-nav-link'}><AiOutlineHome /></a>
+            <a href='#home' onClick={() => setActiveNav('#home')} className={isDark === true ? activeNav === '#home' ? 'dk-nav-link active' : 'dk-nav-link' : activeNav === '#home' ? 'lt-nav-link active' : 'lt-nav-link'}><AiOutlineHome /></a>
             <a href='#about' onClick={() => setActiveNav('#about')} className={isDark === true ? activeNav === '#about' ? 'dk-nav-link active' : 'dk-nav-link' : activeNav === '#about' ? 'lt-nav-link active' : 'lt-nav-link'}><AiOutlineUser /></a>
             <a href='#experience' onClick={() => setActiveNav('#experience')} className={isDark === true ? activeNav === '#experience' ? 'dk-nav-link active' : 'dk-nav-link' : activeNav === '#experience' ? 'lt-nav-link active' : 'lt-nav-link'}><BiBook /></a>
             <a href='#services' onClick={() => setActiveNav('#services')} className={isDark === true ? activeNav === '#services' ? 'dk-nav-link active' : 'dk-nav-link' : activeNav === '#services' ? 'lt-nav-link active' : 'lt-nav-link'}><TbHeartHandshake /></a>
