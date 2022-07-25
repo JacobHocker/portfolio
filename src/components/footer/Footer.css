@@ -1,0 +1,110 @@
+.lt-footer{
+    background: var(--color-lt-primary);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+.dk-footer{
+    background: var(--color-dk-primary);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+.lt-foot-link {
+    color: var(--color-lt-bg-variant);
+    transition: var(--transition);
+}
+.lt-foot-link:hover{
+    color: var(--color-lt-bg);
+}
+.dk-foot-link {
+    color: var(--color-dk-bg-variant);
+    transition: var(--transition);
+}
+.dk-foot-link:hover{
+    color: var(--color-dk-bg);
+}
+.lt-footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+.dk-footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+.lt-permalinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+.dk-permalinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+.lt-foot-social{
+    background: var(--color-lt-bg);
+    color: var(--color-black);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.lt-foot-social:hover{
+    background: transparent;
+    color: var(--color-lt-bg);
+    border-color: var(--color-lt-bg);
+}
+.dk-foot-social{
+    background: var(--color-dk-bg);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.dk-foot-social:hover{
+    background: transparent;
+    color: var(--color-dk-bg);
+    border-color: var(--color-dk-bg);
+}
+.lt-copyright{
+    margin-bottom: 4rem;
+    color: var(--color-lt-bg);
+}
+.dk-copyright{
+    margin-bottom: 4rem;
+    color: var(--color-dk-bg);
+}
+/* ======== MEDIA QUERIES (SMALL DEVICES)============*/
+@media screen and (max-width: 600px) {
+    .lt-permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .dk-permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .footer__socials{
+        margin-bottom: 2.6rem;
+    }
+}
