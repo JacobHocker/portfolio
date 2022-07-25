@@ -1,0 +1,95 @@
+.container.skills__container {
+    width: 40%;
+    padding-bottom: 3rem;
+}
+
+.skill__avatar {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    position: relative;
+}
+.avatar-image{
+    width: 100%;
+    padding-bottom: 6rem;
+}
+.lt-skill__overlay {
+    background: var(--color-lt-primary-variant);
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform: translateY(150%);
+    transition: var(--transition);
+}
+.dk-skill__overlay {
+    background: var(--color-dk-primary-variant);
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform: translateY(150%);
+    transition: var(--transition);
+}
+.lt-skill:hover .lt-skill__overlay {
+    transform: translateY(0%);
+}
+.dk-skill:hover .dk-skill__overlay {
+    transform: translateY(0%);
+}
+
+.lt-skill {
+    background: var(--color-lt-bg-variant);
+    text-align: center;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.dk-skill {
+    background: var(--color-dk-bg-variant);
+    text-align: center;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.lt-skill__content{
+    color: var(--color-black);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+.dk-skill__content{
+    color: var(--color-white);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-red);
+}
+
+/* ======== MEDIA QUERIES (MEDIUM DEVICES)============*/
+@media screen and (max-width: 1024px) {
+    .container.skills__container {
+        width: 60%;
+    }
+}
+/* ======== MEDIA QUERIES (SMALL DEVICES)============*/
+@media screen and (max-width: 600px) {
+    .container.skills__container {
+        width: var(--container-width-sm);
+    }
+
+    .lt-skill__content {
+        width: var(--container-width-sm);
+    }
+    .dk-skill__content {
+        width: var(--container-width-sm);
+    }
+}
