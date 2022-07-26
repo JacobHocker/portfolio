@@ -22,6 +22,9 @@ const Portfolio = ({isDark}) => {
                         <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-primary-btn'}>
                             Live Demo
                         </a>
+                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn'}>
+                            Watch Video
+                        </a>
                     </div>
                 </article>
                 <article className={isDark === true ? 'dk-portfolio__item' : 'lt-portfolio__item'}>
@@ -35,6 +38,9 @@ const Portfolio = ({isDark}) => {
                         </a>
                         <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-primary-btn'}>
                             Live Demo
+                        </a>
+                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn'}>
+                            Watch Video
                         </a>
                     </div>
                 </article>

@@ -61,3 +61,13 @@ nav .dk-nav-link.active {
 .dk-nav-link:hover {
     color: var(--color-white);
 }
+
+/* ======== MEDIA QUERIES (SMALL DEVICES)============*/
+@media screen and (max-width: 600px) {
+    nav {
+        gap: 0.3rem
+    }
+    nav .dk-nav-link {
+        font-size: 0.75rem;
+    }
+}

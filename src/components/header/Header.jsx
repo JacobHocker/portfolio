@@ -6,7 +6,7 @@ import HeaderSocials from './HeaderSocials';
 
 const Header = ({isDark}) => {
     return (
-        <header id='#home'>
+        <header id='#'>
             <div className='container header__container'>
                 <h5>Hello I'm</h5>
                 <h1>Jacob Hocker</h1>
