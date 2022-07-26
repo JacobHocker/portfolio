@@ -12,11 +12,11 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-.lt-experience__frontend:hover {
+/* .lt-experience__frontend:hover {
     background: transparent;
     border-color: var(--color-lt-primary-variant);
     cursor: default;
-}
+} */
 .lt-experience__frontend h3 {
     text-align: center;
     margin-bottom: 2rem;
@@ -29,11 +29,11 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-.dk-experience__frontend:hover {
+/* .dk-experience__frontend:hover {
     background: transparent;
     border-color: var(--color-dk-primary-variant);
     cursor: default;
-}
+} */
 .dk-experience__frontend h3 {
     text-align: center;
     margin-bottom: 2rem;
@@ -46,11 +46,11 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-.lt-experience__backend:hover {
+/* .lt-experience__backend:hover {
     background: transparent;
     border-color: var(--color-lt-primary-variant);
     cursor: default;
-}
+} */
 .lt-experience__backend h3 {
     text-align: center;
     margin-bottom: 2rem;
@@ -63,11 +63,11 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-.dk-experience__backend:hover {
+/* .dk-experience__backend:hover {
     background: transparent;
     border-color: var(--color-dk-primary-variant);
     cursor: default;
-}
+} */
 .dk-experience__backend h3 {
     text-align: center;
     margin-bottom: 2rem;

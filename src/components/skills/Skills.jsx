@@ -35,8 +35,10 @@ const skillData = [
 const Skills = ({isDark}) => {
     return (
         <section id='skills' className={isDark === true ? 'dk-section' : 'lt-section'}>
-            <h5>The Knowledge and Abilities I Can Bring</h5>
-            <h2>Skills</h2>
+            <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
+                <h2>Knowledge & Abilities</h2>
+                <h5>My Skills</h5>
+            </div>
 
             <Swiper className="container skills__container"
             // install Swiper modules

@@ -10,10 +10,10 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-.lt-portfolio__item:hover {
+/* .lt-portfolio__item:hover {
     border-color: var(--color-lt-primary-variant);
     background: transparent;
-}
+} */
 .lt-portfolio__item h3{
     margin: 1.2rem 0 2rem;
 }
@@ -24,10 +24,10 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-.dk-portfolio__item:hover {
+/* .dk-portfolio__item:hover {
     border-color: var(--color-lt-primary-variant);
     background: transparent;
-}
+} */
 .dk-portfolio__item h3{
     margin: 1.2rem 0 2rem;
 }

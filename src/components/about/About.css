@@ -64,16 +64,16 @@
     font-size: 0.7rem;
     color: var(--color-lt-light);
 }
-.lt-about__card:hover {
+/* .lt-about__card:hover {
     background: transparent;
     border-color: var(--color-lt-primary-variant);
     cursor: default;
-}
-.dk-about__card:hover {
+} */
+/* .dk-about__card:hover {
     background: transparent;
     border-color: var(--color-lt-primary-variant);
     cursor: default;
-}
+} */
 .lt-about__icon {
     color: var(--color-lt-primary);
     font-size: 1.4rem;
@@ -95,9 +95,18 @@
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES)============*/
 @media screen and (max-width: 1024px) {
+    .container.about__container{
+        margin-top: 6rem;
+    }
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
+    }
+    .lt-about__content {
+        margin-top: 3rem;
+    }
+    .dk-about__content {
+        margin-top: 3rem;
     }
     .lt-about__me {
         width: 50%;
@@ -116,6 +125,9 @@
 }
 /* ======== MEDIA QUERIES (SMALL DEVICES)============*/
 @media screen and (max-width: 600px) {
+    .container.about__container {
+        margin-top: 6rem;
+    }
     .lt-about__me {
         width: 65%;
         margin: 0 auto 3rem;

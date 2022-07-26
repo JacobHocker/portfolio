@@ -18,8 +18,10 @@ const Contact = ({isDark}) => {
     };
     return (
         <section id='contact' className={isDark === true ? 'dk-section' : 'lt-section'}>
-            <h5>Get In Touch</h5>
-            <h2>Contact Me</h2>
+            <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
+                <h2>Get In Touch</h2>
+                <h5>Contact Me</h5>
+            </div>
 
             <div className="container contact__container">
                 <div className={isDark === true ? 'dk-contact__options' : 'lt-contact__options'}>

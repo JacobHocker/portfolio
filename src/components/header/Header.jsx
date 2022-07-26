@@ -10,9 +10,9 @@ const Header = ({isDark}) => {
             <div className='container header__container'>
                 <h5>Hello I'm</h5>
                 <h1>Jacob Hocker</h1>
-                <h5 className={isDark === true ? 'dk-text-light' : 'lt-text-light'}>Web Developer</h5>
-                <h5 className={isDark === true ? 'dk-text-light' : 'lt-text-light'}>&</h5>
-                <h5 className={isDark === true ? 'dk-text-light' : 'lt-text-light'}>Full Stack Software Engineer</h5>
+                <h5 className={isDark === true ? 'dk-head-text-light' : 'lt-head-text-light'}>Web Developer</h5>
+                <h5 className={isDark === true ? 'dk-head-text-light' : 'lt-head-text-light'}>&</h5>
+                <h5 className={isDark === true ? 'dk-head-text-light' : 'lt-head-text-light'}>Full Stack Software Engineer</h5>
                 <CTA isDark={isDark}/>
                 <HeaderSocials isDark={isDark}/>
 

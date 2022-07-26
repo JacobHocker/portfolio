@@ -9,8 +9,11 @@ import './About.css';
 const About = ({isDark}) => {
     return (
         <section id='about' className={isDark === true ? 'dk-section' : 'lt-section'}>
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
+            <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
+                <h2>Get To Know</h2>
+                <h5>About Me</h5>
+            </div>
+            
 
             <div className='container about__container'>
                 <div className={isDark === true ? 'dk-about__me' : 'lt-about__me'}>

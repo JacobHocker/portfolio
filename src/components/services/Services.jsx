@@ -5,8 +5,10 @@ import './Services.css';
 const Services = ({isDark}) => {
     return (
         <section id='services' className={isDark === true ? 'dk-section' : 'lt-section'}>
-            <h5>What I Offer</h5>
-            <h2>Services</h2>
+            <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
+                <h2>What I Offer</h2>
+                <h5>Services</h5>
+            </div>
 
             <div className="container services__container">
                 <article className={isDark === true ? 'dk-service' : 'lt-service'}>

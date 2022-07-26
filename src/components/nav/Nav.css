@@ -1,5 +1,5 @@
 nav {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -19,7 +19,7 @@ nav .lt-nav-link{
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-lt-light);
+    color: var(--color-lt-nav);
     font-size: 1.1rem;
 }
 nav .dk-nav-link{
@@ -66,6 +66,9 @@ nav .dk-nav-link.active {
 @media screen and (max-width: 600px) {
     nav {
         gap: 0.3rem
+    }
+    nav .lt-nav-link {
+        font-size: 0.75rem;
     }
     nav .dk-nav-link {
         font-size: 0.75rem;

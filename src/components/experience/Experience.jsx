@@ -5,7 +5,10 @@ import './Experience.css';
 const Experience = ({isDark}) => {
     return (
         <section id='experience' className={isDark === true ? 'dk-section' : 'lt-section'}>
-            <h2>My Experience</h2>
+            <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
+                <h2>View My</h2>
+                <h5>Experience</h5>
+            </div>
 
             <div className="container experience__container">
                 <div className={isDark === true ? "dk-experience__frontend" : "lt-experience__frontend"}>

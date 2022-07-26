@@ -27,11 +27,11 @@
     display: inline-block;
     font-size: 0.8rem;
 }
-.lt-contact__option:hover{
+/* .lt-contact__option:hover{
     background: transparent;
     border-color: var(--color-lt-primary-variant);
     
-}
+} */
 .dk-contact__option{
     background: var(--color-dk-bg-variant);
     padding: 1.2rem;
@@ -45,11 +45,11 @@
     display: inline-block;
     font-size: 0.8rem;
 }
-.dk-contact__option:hover{
+/* .dk-contact__option:hover{
     background: transparent;
     border-color: var(--color-dk-primary-variant);
     
-}
+} */
 .lt-contact__option-icon{
     font-size: 1.5rem;
     margin: 0.5rem;
