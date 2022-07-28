@@ -20,7 +20,10 @@
 .lt-experience__frontend h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-lt-primary);
+    color: var(--color-lt-bg);
+}
+.lt-experience__frontend h4 {
+    color: var(--color-lt-bg);
 }
 .dk-experience__frontend {
     background: var(--color-dk-bg-variant);
@@ -54,7 +57,10 @@
 .lt-experience__backend h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-lt-primary);
+    color: var(--color-lt-bg);
+}
+.lt-experience__backend h4 {
+    color: var(--color-lt-bg);
 }
 .dk-experience__backend {
     background: var(--color-dk-bg-variant);
@@ -95,7 +101,7 @@
 }
 .lt-experience__details-icon{
     margin-top: 6px;
-    color: var(--color-lt-primary);
+    color: var(--color-lt-nav);
 }
 .dk-experience__details-icon{
     margin-top: 6px;

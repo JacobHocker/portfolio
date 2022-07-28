@@ -7,7 +7,7 @@ const Services = ({isDark}) => {
         <section id='services' className={isDark === true ? 'dk-section' : 'lt-section'}>
             <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
                 <h2>What I Offer</h2>
-                <h5>Services</h5>
+                <h5><strong>Services</strong></h5>
             </div>
 
             <div className="container services__container">

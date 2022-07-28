@@ -14,7 +14,7 @@
     padding-bottom: 6rem;
 }
 .lt-skill__overlay {
-    background: var(--color-lt-primary-variant);
+    background: var(--color-lt-primary);
     border-radius: 2rem;
     position: absolute;
     bottom: 0;
@@ -23,6 +23,12 @@
     width: 100%;
     transform: translateY(150%);
     transition: var(--transition);
+}
+.lt-skill__overlay h2{
+    color: var(--color-lt-bg);
+}
+.lt-skill__overlay small{
+    color: var(--color-lt-bg);
 }
 .dk-skill__overlay {
     background: var(--color-dk-primary-variant);
@@ -71,7 +77,7 @@
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
-    background: var(--color-red);
+    background: var(--rose);
 }
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES)============*/

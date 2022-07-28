@@ -60,6 +60,7 @@
 }
 .lt-service__list p{
     font-size: 0.9rem;
+    color: var(--color-lt-bg);
 }
 .dk-service__list{
     padding: 2rem;
@@ -73,7 +74,7 @@
     font-size: 0.9rem;
 }
 .lt-service__list-icon{
-    color: var(--color-lt-primary);
+    color: var(--color-lt-nav);
     margin-top: 2px;
 }
 .dk-service__list-icon{

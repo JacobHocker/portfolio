@@ -45,10 +45,11 @@
 }
 .lt-about__card h5 {
     font-size: 0.9rem;
+    color: var(--color-lt-bg);
 }
 .lt-about__card small {
     font-size: 0.7rem;
-    color: var(--color-lt-light);
+    color: var(--color-lt-nav);
 }
 .dk-about__card {
     background: var(--color-dk-bg-variant);
@@ -75,7 +76,7 @@
     cursor: default;
 } */
 .lt-about__icon {
-    color: var(--color-lt-primary);
+    color: var(--color-lt-nav);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }

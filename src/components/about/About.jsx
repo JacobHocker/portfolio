@@ -11,7 +11,7 @@ const About = ({isDark}) => {
         <section id='about' className={isDark === true ? 'dk-section' : 'lt-section'}>
             <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
                 <h2>Get To Know</h2>
-                <h5>About Me</h5>
+                <h5><strong>About Me</strong></h5>
             </div>
             
 
@@ -45,7 +45,8 @@ const About = ({isDark}) => {
                     </div>
                         
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates ea reiciendis doloremque tenetur optio harum praesentium a, pariatur accusantium voluptatem minus iure perferendis? Expedita voluptas, voluptatibus adipisci necessitatibus neque ipsa?
+                            I am a full stack software engineer that bring a passion and focus to bringing a beautiful frontend to life.  My goal is to enrich the user experience and interface to make the bring to life the most seemless and easy to use applications.
+                            I love to integrate my positivity and my passion for what I do into every project I work on.
                         </p>
 
                         <a href='#contact' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>Let's Talk</a>

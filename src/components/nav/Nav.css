@@ -38,7 +38,7 @@ nav .dk-nav-link:hover {
 }
 nav .lt-nav-link.active {
     background: var(--color-lt-bg);
-    color: var(--color-black);
+    color: var(--color-lt-bg-variant);
 }
 nav .dk-nav-link.active {
     background: var(--color-dk-bg);

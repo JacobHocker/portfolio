@@ -8,7 +8,7 @@ const Portfolio = ({isDark}) => {
         <section id='portfolio' className={isDark === true ? 'dk-section' : 'lt-section'}>
             <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
                 <h2>My Recent Work</h2>
-                <h5>My Portfolio</h5>
+                <h5><strong>My Portfolio</strong></h5>
             </div>
 
             <div className="container portfolio__container">
@@ -18,13 +18,13 @@ const Portfolio = ({isDark}) => {
                     </div>
                     <h3>Entertainment Center</h3>
                     <div className="portfolio__item-cta">
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn'}>
+                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn lt-btn-primary'}>
                             GitHub
                         </a>
                         <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
                             Live Demo
                         </a>
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn'}>
+                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn lt-btn-primary'}>
                             Watch Video
                         </a>
                     </div>
@@ -35,13 +35,13 @@ const Portfolio = ({isDark}) => {
                     </div>
                     <h3>OverStat Lab</h3>
                     <div className="portfolio__item-cta">
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn'}>
+                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn lt-btn-primary'}>
                             GitHub
                         </a>
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-primary-btn'}>
+                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
                             Live Demo
                         </a>
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn'}>
+                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn' : 'lt-btn lt-btn-primary'}>
                             Watch Video
                         </a>
                     </div>

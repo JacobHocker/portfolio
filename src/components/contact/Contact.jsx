@@ -20,7 +20,7 @@ const Contact = ({isDark}) => {
         <section id='contact' className={isDark === true ? 'dk-section' : 'lt-section'}>
             <div className={isDark === true ? 'dk-section__head' : 'lt-section__head'}>
                 <h2>Get In Touch</h2>
-                <h5>Contact Me</h5>
+                <h5><strong>Contact Me</strong></h5>
             </div>
 
             <div className="container contact__container">
@@ -28,12 +28,12 @@ const Contact = ({isDark}) => {
                     <article className={isDark === true ? 'dk-contact__option' : 'lt-contact__option'}>
                         <RiMessengerLine className={isDark === true ? 'dk-contact__option-icon' : 'lt-contact__option-icon'}/>
                         <h4>Messenger</h4>
-                        <a className={isDark === true ? 'dk-link' : 'lt-link'} href='https://m.me/jacob.hocker' rel='noreferrer' target='_blank'>Send A Message</a>
+                        <a className={isDark === true ? 'dk-btn' : 'lt-btn'} href='https://m.me/jacob.hocker' rel='noreferrer' target='_blank'>Send A Message</a>
                     </article>
                     <article className={isDark === true ? 'dk-contact__option' : 'lt-contact__option'}>
                         <AiOutlineMail className={isDark === true ? 'dk-contact__option-icon' : 'lt-contact__option-icon'}/>
                         <h4>Email</h4>
-                        <a className={isDark === true ? 'dk-link' : 'lt-link'} href='mailto: jacobdouglas06@gmail.com' rel='noreferrer' target='_blank'>Send A Message</a>
+                        <a className={isDark === true ? 'dk-btn' : 'lt-btn'} href='mailto: jacobdouglas06@gmail.com' rel='noreferrer' target='_blank'>Send A Message</a>
                     </article>
                 </div>
                 {/* END OF CONTACT OPTIONS */}
