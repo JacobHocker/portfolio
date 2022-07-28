@@ -6,7 +6,7 @@
     margin-top: 7rem;
 }
 .dk-footer{
-    background: var(--color-dk-primary);
+    background: var(--color-dk-bg-variant);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -20,7 +20,7 @@
     color: var(--color-lt-bg);
 }
 .dk-foot-link {
-    color: var(--color-dk-bg-variant);
+    color: var(--color-dk-primary);
     transition: var(--transition);
 }
 .dk-foot-link:hover{
@@ -31,12 +31,14 @@
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    color: var(--color-lt-nav);
 }
 .dk-footer__logo {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    color: var(--color-dk-nav);
 }
 .lt-permalinks{
     display: flex;

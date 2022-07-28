@@ -12,23 +12,20 @@
 
 :root {
     /* ===== REFERENCE COLORS ====*/
-    --blue-topaz: #67aeca;
-    --amethyst: #675682;
-    --jewel: #5f0f4e;
-    --rose: #e52a6f;
+    
     --color-white: #fff;
     --color-black: #000;
     --color-red: red;
     
 
     --color-dk-bg: rgb(29, 29, 29);
-    --color-dk-bg-variant: #443291;
-    --color-dk-primary: #9c1167;
+    --color-dk-bg-variant: #3c1580;
+    --color-dk-primary: #690bfe;
     --color-dk-primary-variant: #c92f60d4;
-    --color-dk-light: #9c08d794;
+    --color-dk-light: #701992;
+    --color-dk-nav: #11b5f6;
     
     --color-lt-bg: rgb(202, 201, 201);
-    /* --color-lt-bg-variant: #5f0f4e; */
     --color-lt-bg-variant: #453a58;
     --color-lt-primary-variant: #e52a6f;
     --color-lt-primary: #72608f;
@@ -91,7 +88,7 @@ small {
 section {
     margin-top: 8rem;
 }
-
+/* ========= DK & LT SECTION HEAD ======= */
 .lt-section__head {
     margin-bottom: 2.5rem;
 }
@@ -120,6 +117,8 @@ section {
     color: var(--color-lt-light);
     font-size: 0.95rem;
 }
+
+/* ============== DK & LT LIGHT TEXT ======== */
 .lt-text-light {
     color: var(--color-lt-light);
 }
@@ -134,12 +133,16 @@ section {
 .dk-text-light {
     color: var(--color-dk-light);
 }
+.dk-text-light-variant{
+    color: var(--color-dk-nav);
+}
 .dk-head-text-light{
     font-family: sans-serif;
     font-style: italic;
     color: var(--color-dk-light);
 }
 
+/* ======== DK & LT LINK ======= */
 .lt-link {
     color: var(--color-lt-primary);
     transition: var(--transition);
@@ -156,6 +159,7 @@ section {
     color: var(--color-white);
 }
 
+/* ======= DK & LT BTN ====== */
 .lt-btn {
     width: max-content;
     display: inline-block;

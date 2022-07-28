@@ -61,6 +61,7 @@
 .dk-contact__option-icon{
     font-size: 1.5rem;
     margin: 0.5rem;
+    color: var(--color-dk-nav);
 }
 
 /* ========= FORM ==========*/
@@ -88,7 +89,7 @@
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-lt-primary-variant);
+    border: 2px solid var(--color-lt-primary);
     resize: none;
     color: var(--color-white);
 }

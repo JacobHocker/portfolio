@@ -40,8 +40,9 @@
 .dk-experience__frontend h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-dk-primary);
+    color: var(--color-white);
 }
+
 .lt-experience__backend {
     background: var(--color-lt-bg-variant);
     padding: 2.4rem 5rem;
@@ -77,7 +78,7 @@
 .dk-experience__backend h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-dk-primary);
+    color: var(--color-white);
 }
 /* ====== EXPERIENCE CONTENT DK & LT ===== */
 .lt-experience__content {

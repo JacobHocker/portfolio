@@ -18,42 +18,42 @@ const Experience = ({isDark}) => {
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>HTML5</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>CSS3</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>JavaScript</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>React.js</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>Sass</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>Bootstrap</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                     </div>
@@ -65,21 +65,21 @@ const Experience = ({isDark}) => {
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>Ruby</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>Ruby on Rails</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
                                 <h4>SQL</h4>
-                                <small className={isDark === true ? "dk-text-light" : "lt-text-light-variant"}>Experienced</small>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>
                     </div>

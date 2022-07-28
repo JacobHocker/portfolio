@@ -27,7 +27,7 @@ nav .dk-nav-link{
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-dk-light);
+    color: var(--color-dk-nav);
     font-size: 1.1rem;
 }
 nav .lt-nav-link:hover {

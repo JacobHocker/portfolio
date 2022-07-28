@@ -46,7 +46,7 @@
     text-align: center;
 }
 .dk-service__head h3{
-    color: var(--color-dk-bg);
+    color: var(--color-white);
     font-size: 1rem;
     text-align: center;
 }
@@ -78,7 +78,7 @@
     margin-top: 2px;
 }
 .dk-service__list-icon{
-    color: var(--color-dk-primary);
+    color: var(--color-dk-nav);
     margin-top: 2px;
 }
 /* ======== MEDIA QUERIES (MEDIUM DEVICES)============*/

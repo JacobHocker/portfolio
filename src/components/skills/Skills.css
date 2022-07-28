@@ -31,7 +31,7 @@
     color: var(--color-lt-bg);
 }
 .dk-skill__overlay {
-    background: var(--color-dk-primary-variant);
+    background: var(--color-dk-primary);
     border-radius: 2rem;
     position: absolute;
     bottom: 0;

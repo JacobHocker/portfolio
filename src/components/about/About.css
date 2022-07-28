@@ -63,7 +63,7 @@
 }
 .dk-about__card small {
     font-size: 0.7rem;
-    color: var(--color-lt-light);
+    color: var(--color-dk-nav);
 }
 /* .lt-about__card:hover {
     background: transparent;
@@ -81,7 +81,7 @@
     margin-bottom: 1rem;
 }
 .dk-about__icon {
-    color: var(--color-dk-primary);
+    color: var(--color-dk-nav);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
