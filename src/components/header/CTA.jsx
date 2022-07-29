@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/jacob-hocker-resume.pdf';
 
 const CTA = ({isDark}) => {
     return (

@@ -18,14 +18,11 @@ const Portfolio = ({isDark}) => {
                     </div>
                     <h3>Entertainment Center</h3>
                     <div className="portfolio__item-cta">
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
+                        <a href='https://github.com/JacobHocker/entertainment-center' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
                             GitHub
                         </a>
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
+                        <a href='https://entertainment-center.herokuapp.com/' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
                             Live Demo
-                        </a>
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
-                            Watch Video
                         </a>
                     </div>
                 </article>
@@ -35,13 +32,13 @@ const Portfolio = ({isDark}) => {
                     </div>
                     <h3>OverStat Lab</h3>
                     <div className="portfolio__item-cta">
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
+                        <a href='https://github.com/JacobHocker/overwatch-stat-lab' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
                             GitHub
                         </a>
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
+                        <a href='https://overstat-lab.herokuapp.com/' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
                             Live Demo
                         </a>
-                        <a href='https://github.com' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
+                        <a href='https://www.youtube.com/watch?v=Z3AFrsbJnLc' rel='noreferrer' target='_blank' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>
                             Watch Video
                         </a>
                     </div>
