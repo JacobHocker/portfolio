@@ -20,6 +20,9 @@ const App = () => {
         window.localStorage.setItem('isDark', isDark);
     }, [isDark]);
     
+    useEffect(() => {
+        window.history.scrollRestoration = 'manual'
+    }, []);
     
     const toggleDarkMode = () => setIsDark(!isDark);
     return (

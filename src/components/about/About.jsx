@@ -1,7 +1,7 @@
 import React from 'react';
 import MeAbout from '../../assets/selfieoneback.jpg';
 import {FaAward} from 'react-icons/fa';
-import {GiSkills} from 'react-icons/gi';
+import {FaHandsHelping} from 'react-icons/fa';
 import {VscFolderLibrary} from 'react-icons/vsc';
 
 import './About.css';
@@ -25,14 +25,14 @@ const About = ({isDark}) => {
                     <div className='about__cards'>
                         <article className={isDark === true ? 'dk-about__card' : 'lt-about__card'}>
                             <FaAward className={isDark === true ? 'dk-about__icon' : 'lt-about__icon'} />
-                            <h5>Experience</h5>
+                            <h5>Development</h5>
                             <small>2 Years Experience</small>
                         </article>
 
                         <article className={isDark === true ? 'dk-about__card' : 'lt-about__card'}>
-                            <GiSkills className={isDark === true ? 'dk-about__icon' : 'lt-about__icon'} />
-                            <h5>Skills</h5>
-                            <small>TBD</small>
+                            <FaHandsHelping className={isDark === true ? 'dk-about__icon' : 'lt-about__icon'} />
+                            <h5>Customer Service</h5>
+                            <small>8+ Years Experience</small>
                         </article>
 
                         <article className={isDark === true ? 'dk-about__card' : 'lt-about__card'}>

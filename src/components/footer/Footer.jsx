@@ -18,9 +18,9 @@ const Footer = ({isDark}) => {
             </ul>
 
             <div className="footer__socials">
-                <a href='https://github.com' className={isDark === true ? 'dk-foot-social' : 'lt-foot-social'}><BsGithub /></a>
-                <a href='https://medium.com' className={isDark === true ? 'dk-foot-social' : 'lt-foot-social'}><BsMedium /></a>
-                <a href='https://linkedin.com' className={isDark === true ? 'dk-foot-social' : 'lt-foot-social'}><BsLinkedin /></a>
+                <a href='https://github.com/JacobHocker' className={isDark === true ? 'dk-foot-social' : 'lt-foot-social'}><BsGithub /></a>
+                <a href='https://medium.com/@jacobhocker' className={isDark === true ? 'dk-foot-social' : 'lt-foot-social'}><BsMedium /></a>
+                <a href='https://www.linkedin.com/in/jacobhocker/' className={isDark === true ? 'dk-foot-social' : 'lt-foot-social'}><BsLinkedin /></a>
             </div>
 
             <div className={isDark === true ? 'dk-copyright' : 'lt-copyright'}>

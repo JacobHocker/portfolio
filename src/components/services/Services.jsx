@@ -18,23 +18,27 @@ const Services = ({isDark}) => {
                     <ul className={isDark === true ? 'dk-service__list' : 'lt-service__list'}>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Wireframing</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Mobil First Responsive Design</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Business Branding</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Graphic Design</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Fluid Interfaces</p>
+                        </li>
+                        <li>
+                            <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
+                            <p>Modern Layouts</p>
                         </li>
                     </ul>
                 </article>
@@ -47,23 +51,23 @@ const Services = ({isDark}) => {
                     <ul className={isDark === true ? 'dk-service__list' : 'lt-service__list'}>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Client-Side Scripting</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Server-Side Scripting</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Server and Network Security Configuration</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>eCommerce Development</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Content Management Systems (CMS)</p>
                         </li>
                     </ul>
                 </article>
@@ -71,28 +75,28 @@ const Services = ({isDark}) => {
 
                 <article className={isDark === true ? 'dk-service' : 'lt-service'}>
                     <div className={isDark === true ? 'dk-service__head' : 'lt-service__head'}>
-                        <h3>TBD</h3>
+                        <h3>Non-Technical</h3>
                     </div>
                     <ul className={isDark === true ? 'dk-service__list' : 'lt-service__list'}>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Consultations</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Excellent Communication</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Quick & Informative Responses</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Market Research</p>
                         </li>
                         <li>
                             <BiCheck className={isDark === true ? 'dk-service__list-icon' : 'lt-service__list-icon'}/>
-                            <p>Lorem, ispsum</p>
+                            <p>Deadline Punctuality</p>
                         </li>
                     </ul>
                 </article>
