@@ -45,8 +45,11 @@ const About = ({isDark}) => {
                     </div>
                         
                         <p>
-                            I am a full stack software engineer that bring a passion and focus to bringing a beautiful frontend to life.  My goal is to enrich the user experience and interface to make the bring to life the most seemless and easy to use applications.
+                            I am a full stack software engineer that brings a passion and focus to create a seemless frontend user experience.  
+                            My goal is to take the ideas that you have for your web application and make it a reality. 
                             I love to integrate my positivity and my passion for what I do into every project I work on.
+                            Together we can create something we can truly be proud of!
+                            So reach out let's talk ideas, jobs, music, movies, or anything you have on your mind!
                         </p>
 
                         <a href='#contact' className={isDark === true ? 'dk-btn dk-btn-primary' : 'lt-btn lt-btn-primary'}>Let's Talk</a>
