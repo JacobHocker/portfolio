@@ -59,6 +59,13 @@ const Experience = ({isDark}) => {
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
+                                <h4>jQuery</h4>
+                                <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
+                            <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
+                            <div>
                                 <h4>Bootstrap</h4>
                                 <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
@@ -73,7 +80,7 @@ const Experience = ({isDark}) => {
                         <article className={isDark === true ? "dk-experience__details" : "lt-experience__details"}>
                             <BsPatchCheckFill className={isDark === true ? "dk-experience__details-icon" : "lt-experience__details-icon"}/>
                             <div>
-                                <h4>Bootstrap</h4>
+                                <h4>Reactstrap</h4>
                                 <small className={isDark === true ? "dk-text-light-variant" : "lt-text-light-variant"}>Experienced</small>
                             </div>
                         </article>

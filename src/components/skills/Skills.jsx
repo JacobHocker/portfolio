@@ -1,7 +1,11 @@
 import React from 'react';
-import REACT from '../../assets/lang-logo/react-transparent.png';
-import HTML from '../../assets/lang-logo/html-transparent.png';
-import CSS from '../../assets/lang-logo/css-transparent.png';
+import VS from '../../assets/lang-logo/vscode-transparent.png';
+import GITHUB from '../../assets/lang-logo/github-transparent.png';
+import OOP from '../../assets/lang-logo/oop-transparent.webp';
+import GOOGLE from '../../assets/lang-logo/google-transparent.svg.png';
+import API from '../../assets/lang-logo/restapi-transparent.svg';
+import STACK from '../../assets/lang-logo/stack_overflow.png';
+import RESPONSE from '../../assets/lang-logo/responsive-transparent.png';
 import './Skills.css';
 
 // import Swiper core and required modules
@@ -16,20 +20,42 @@ import 'swiper/css/pagination';
 
 const skillData = [
     {
-        avatar: REACT,
-        name: 'React.js',
-        content: 'This is where the content for the skill will go.  Testing how long text should be'
+        avatar: GOOGLE,
+        name: 'Google',
+        content: 'One key for every developer is when you are stuck is to be able to research the solution.  I am quite skilled with the developers best friend Google.'
+    },
+    {
+        avatar: RESPONSE,
+        name: 'Mobile First Responsive Design',
+        content: 'Just like my belief in life that inclusion is a must, the same can be said for development of applications. I include the ability to view the application from all devices by styling mobile first.'
+    },
+    {
+        avatar: VS,
+        name: 'VS Code',
+        content: 'My prefered code editor.'
+    },
+    {
+        avatar: GITHUB,
+        name: 'GitHub',
+        content: 'All of my development experience starts on GitHub the lifeline for all developers and engineers!'
+    },
+    {
+        avatar: OOP,
+        name: 'Object Oriented Programming',
+        content: 'OOP with relational databases is my primary method when creating a full stack application.'
     }, 
     {
-        avatar: HTML,
-        name: 'HTML5',
-        content: 'This is where the content for the skill will go.  Testing how long text should be'
-    }, 
+        avatar: STACK,
+        name: 'Stack Overflow',
+        content: 'Along with Google when a developer is stuck navigation and interaction with Stack Overflow is a must.'
+    },
     {
-        avatar: CSS,
-        name: 'CSS3',
-        content: 'This is where the content for the skill will go.  Testing how long text should be'
-    }
+        avatar: API,
+        name: 'RestAPI',
+        content: 'Experience with using RESTful APIs to integrate large amounts of data with complex end points to the GUI.'
+    },
+    
+    
 ]
 
 const Skills = ({isDark}) => {
